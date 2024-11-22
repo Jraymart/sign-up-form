@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Norse';
+    src: url("font/Norse-Bold.otf")
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    flex: 1;
+    height: 100vh;
+    background-image: url("images/photo-1585202900225-6d3ac20a6962.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #F8F9FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.sidebar>p {
+    margin-top: auto;
+}
+
+.main {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #F8F9FA;
+}
+
+#logo {
+    font-family: 'Norse';
+    font-weight: bold;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 1rem;
+    margin-top: 25vh;
+}
+
+#logo>img {
+    width: 8rem;
+}
+
+#statement {
+    font-weight: bold;
+    padding: 4rem;
+    font-size: clamp(24px, 32px, 48px);
+}
+
+#form-top {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 1rem 4rem 2.5rem;
+    box-shadow: 0 -5px 5px lightgrey, 0 5px 5px lightgrey;
+}
+
+#form-top>p {
+    flex: 0 0 100%;
+    font-weight: bold;
+    font-size: clamp(24px, 32px, 48px);
+}
+
+.column p {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 3.5rem 0 0;
+}
+
+input {
+    width: 400px;
+    height: 32px;
+    border: 1px solid #dadada;
+    border-radius: 2.5px;
+    background-color: #F9FAFB;
+}
+
+input:user-invalid{
+    border:1px solid red;
+}
+
+
+button {
+    width: 300px;
+    height: 64px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+    background-color: #596D48;
+    color: #F8F9FA;
+    
+}
+#form-bottom{
+    margin: 2.5rem 4rem;
+}
+#form-bottom>p{
+    margin-top:2.5rem;
+    font-size: 24px;
+}
+
+a{
+    color:#596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+span{
+    color:red;
+}

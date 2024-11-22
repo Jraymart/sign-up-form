@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not a real sign-up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div id="logo">
+                <img src="images/odin-lined.png" alt="ODIN LOGO">
+                <h1>ODIN</h1>
+            </div>
+            <p>Photo by Halie West on Unsplash</p>
+        </div>
+        <div class="main">
+            <div id="statement">
+                <p>This is not a real online service! You know you need something
+                    </br> like this in your life to help you realize your deepest dreams.
+                    <br> Sign up <em>now</em> to get started.
+                    <br>
+                    <br>You <em>know</em> you want to.
+                </p>
+            </div>
+            <form id="sign-up">
+                <div id="form-top">
+                    <p>Let's do this!</p>
+                    <div class="column">
+                        <p>
+                            <label for="first-name" required>FIRST NAME</label>
+                            <input type="text" id="first-name" required>
+                            <span id="first-name-error"></span>
+                        </p>
+                        <p>
+                            <label for="email" required>EMAIL</label>
+                            <input type="email" id="email" required>
+                            <span id="email-error"></span>
+                        </p>
+                        <p>
+                            <label for="password" required>PASSWORD</label>
+                            <input type="password" id="password" required>
+                            <span id="password-error"></span>
+                        </p>
+                    </div>
+                    <div class="column">
+                        <p>
+                            <label for="last-name" required>LAST NAME</label>
+                            <input type="text" id="last-name" required>
+                            <span id="last-name-error"></span>
+                        </p>
+                        <p>
+                            <label for="phone-number" required>PHONE NUMBER</label>
+                            <input type="tel" id="phone-number" required>
+                            <span id="tel-error"></span>
+                        </p>
+                        <p>
+                            <label for="confirm-password" required> CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-password" required>
+                            <span id="confirm-password-error"></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="form-bottom">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="script.js">
+       
+    </script>
+</body>
+
+</html>
